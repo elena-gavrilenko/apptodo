@@ -1,0 +1,10 @@
+.table,
+.table__subtitle,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.table{
+  margin-bottom: 30px;
+}
