@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(200, 252, 236);
+  padding: 20px;
+}
+.header,
+.main,
+.footer {
+  padding: 10px 20px;
+  
+}
+section {
+  padding-left: 10px;
+}
+h1,
+h2 {
+  padding: 10px;
+}
+li {
+  padding: 2px;
+}
+
+label {
+  margin-top: 5px;
+}
+input {
+  margin-left: 5px;
+}
+
+.footer {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__btn,
+.footer__dateResult {
+  padding: 10px 20px;
+  background-color: rgb(47, 143, 116);
+  border: 1px solid rgb(4, 56, 41);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.footer__btn {
+  transition: 1s;
+  cursor: pointer;
+}
+.footer__btn:hover {
+  background-color: rgb(153, 233, 210);
+  color: black;
+  transition: 1s;
+}
+.footer__btn_transition a {
+  color: white;
+}
+
+
+
