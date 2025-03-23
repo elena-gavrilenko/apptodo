@@ -49,6 +49,7 @@ year.append(yearTitle);
 year.append(months);
 
 let saveToFile = document.querySelector('.data__save');
+let loadFromFile = document.querySelector('.data__load');
 // let month = monthName[new Date().getMonth() + 1];
 // console.log(month);
 monthName.forEach((el, i) => {
